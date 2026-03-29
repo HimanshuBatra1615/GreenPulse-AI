@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+supabase
+python-socketio
+pydantic[email]
+scikit-learn
+pandas
+numpy
+pydantic-settings
+python-multipart
+python-dotenv
+google-generativeai
+torch
+stable-baselines3
+gymnasium
+flwr
