@@ -20,7 +20,7 @@ export default function OnboardingPage() {
       if (!userId) return;
       
       setLoading(true);
-      const { error } = await supabase.table('sme_profiles').insert([{
+      const { error } = await supabase.from('sme_profiles').insert([{
           id: userId,
           name: form.name,
           industry: form.industry,
